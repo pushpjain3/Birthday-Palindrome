@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;800;900&display=swap');
 
 :root {
-	--primary-color: #8b5cf6;
-	--primary-light: #c4b5fd;
-	--primary-dark: #7c3aed;
-	--off-white: #f3f4f6;
+	--primary-color: #F472B6;
+	--primary-light: #F9A8D4;
+	--primary-dark: #EC4899;
+	--off-white: #FCE7F3;
 }
 * {
-	font-family: "Fira Sans", sans-serif;
+	font-family: 'Inconsolata', monospace;
 	box-sizing: border-box;
 	font-size: 1.2rem;
 }
@@ -33,7 +33,7 @@ h1 {
 
 }
 .header {
-	margin: 1.5rem auto;
+	margin: 2rem auto;
 	width: 40%;
 	background-color: var(--primary-color);
 	padding: 0.8rem;
@@ -102,7 +102,7 @@ input {
 	flex-wrap: wrap;
 	background-color: var(--primary-light);
 	min-width: 330px;
-	padding: 0.2rem 0.5rem;
+	padding:1rem 1rem;
 }
 .cake-img {
 	width: 95%;
@@ -117,14 +117,12 @@ input {
 }
 .footer {
 	background-color: var(--primary-color);
-	height: 13vh;
+	height: 15vh;
     width: 100%;
 	padding: 1rem;
+    margin: 4rem 0rem 0rem 0rem;
 	text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
+    
 }
 .footer-content {
 	vertical-align: middle;
